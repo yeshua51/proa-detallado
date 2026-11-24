@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proa Detallado | Detallado y cerámica de grafeno en Guadalajara</title>
+<meta name="description" content="Detallado automotriz a domicilio en Guadalajara, Zapopan, Tlaquepaque, Tonalá y Tlajomulco. Cerámica de grafeno con protección de hasta 6 meses.">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#000;--paper:#d9d9d9;--white:#fff;--mid:#8a8a8a;--line:#2a2a2a;--ok:#25d366}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:Montserrat,system-ui,Arial,sans-serif;background:var(--ink);color:var(--white);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--white);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.check{height:28px;background:conic-gradient(var(--white) 25%,var(--ink) 0 50%,var(--white) 0 75%,var(--ink) 0) 0 0/56px 56px}
+header{position:sticky;top:0;z-index:5;background:#000e;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:900;font-size:20px;text-decoration:none}
+nav a{margin-left:18px;font-size:14px;font-weight:600;text-decoration:none;color:#ccc}
+nav a:hover{color:#fff}
+.btn{display:inline-block;background:var(--white);color:var(--ink);font-weight:800;padding:14px 26px;text-decoration:none;border:2px solid var(--white);cursor:pointer;font:800 16px Montserrat,sans-serif}
+.btn.ghost{background:transparent;color:var(--white)}
+.btn.wa{background:var(--ok);border-color:var(--ok);color:#000}
+.hero{padding:64px 0 56px}
+.hero .wrap{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:end}
+.vert{writing-mode:vertical-rl;transform:rotate(180deg);font-weight:900;font-size:clamp(48px,11vw,128px);line-height:.9;color:transparent;-webkit-text-stroke:2px var(--white);letter-spacing:-2px}
+.hero h1{font-size:clamp(28px,5.5vw,56px);font-weight:900;line-height:1.05;margin-bottom:18px}
+.hero p{max-width:46ch;color:#ccc;margin-bottom:26px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.light{background:var(--paper);color:var(--ink)}
+section{padding:72px 0}
+h2{font-size:clamp(32px,6vw,60px);font-weight:900;line-height:1.02;margin-bottom:28px}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}
+.tags span{background:var(--ink);color:var(--white);padding:6px 14px;font-weight:600;font-size:15px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.price-card{background:var(--ink);border:2px solid var(--white);padding:28px}
+.price-card h3{font-size:20px;font-weight:800}
+.price-card .p{font-size:56px;font-weight:900;line-height:1;margin:10px 0}
+.price-card small{color:#bbb;display:block}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.addons{list-style:none;padding:0;margin-top:24px;border-top:1px solid var(--line)}
+.addons li{display:flex;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);font-weight:600}
+.addons b{font-weight:900}
+.incl{color:#bbb;margin-top:18px;font-size:15px}
+.dark2{background:#0d0d0d}
+.zones{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.zones span{border:1px solid var(--mid);padding:6px 14px;font-size:14px}
+form{display:grid;gap:16px}
+label{display:grid;gap:6px;font-weight:600;font-size:14px}
+input,select,textarea{font:500 16px Montserrat,sans-serif;padding:13px;background:#111;color:#fff;border:1px solid #555;border-radius:0;width:100%}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+fieldset{border:1px solid #555;padding:14px}
+legend{padding:0 8px;font-weight:700;font-size:14px}
+.opt{display:flex;gap:10px;align-items:center;font-weight:500;padding:5px 0}
+.opt input{width:auto}
+.opt span:last-child{margin-left:auto;font-weight:800}
+.total{display:flex;justify-content:space-between;font-size:26px;font-weight:900;border-top:2px solid #fff;padding-top:14px}
+.pay{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.pay div{border:2px solid var(--ink);padding:20px}
+.pay h3{font-size:18px;font-weight:800;margin-bottom:6px}
+.pay p{font-size:15px}
+footer{padding:48px 0 90px;border-top:1px solid var(--line);color:#bbb}
+footer .wrap{display:flex;flex-wrap:wrap;gap:28px;justify-content:space-between}
+footer strong{color:#fff}
+.fab{position:fixed;right:16px;bottom:16px;z-index:6;background:var(--ok);color:#000;font-weight:800;padding:14px 20px;border-radius:40px;text-decoration:none;box-shadow:0 4px 18px #0008}
+#install{display:none}
+@media(max-width:760px){.cols,.g2,.pair{grid-template-columns:1fr}nav a:not(.keep){display:none}.hero .wrap{grid-template-columns:auto 1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.gallery figure{position:relative;aspect-ratio:3/4;background:#111;overflow:hidden}
+.gallery img,.gallery video{width:100%;height:100%;object-fit:cover;display:block;background:#000}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#inicio">Proa Detallado</a>
+  <nav><a href="#servicios">Servicios</a><a href="#galeria">Trabajos</a><a href="#reservar">Reservar</a><a href="#pagos">Pagos</a><a class="keep" id="install" href="#" >Instalar app</a></nav>
+</div></header>
+
+<main id="inicio">
+<div class="check" aria-hidden="true"></div>
+<div class="hero"><div class="wrap">
+  <div class="vert" aria-hidden="true">Proa Detallado</div>
+  <div>
+    <h1>Limpio, brillante y protegido.</h1>
+    <p>Cuidado premium con servicio a domicilio en la zona metropolitana de Guadalajara. Cerámica de grafeno que protege tu auto del sol, la lluvia, la tierra y los contaminantes hasta por 6 meses.</p>
+    <div class="cta"><a class="btn" href="#reservar">Reservar mi cita</a><a class="btn ghost" href="#servicios">Ver precios</a></div>
+  </div>
+</div></div>
+
+<section class="light" id="servicios"><div class="wrap">
+  <h2>Detallado a<br>un buen precio</h2>
+  <div class="cols">
+    <div>
+      <p>En Proa Detallados devolvemos el brillo a tu auto con protección cerámica de hasta 6 meses. Experto en tu puerta, con equipo de calidad y opción de mantenimiento mensual.</p>
+      <div class="tags"><span>Cerámico de grafeno</span><span>Equipo de calidad</span><span>Cuidado profesional</span><span>Servicio a domicilio</span></div>
+      <p class="incl" style="color:#222"><b>Todo paquete incluye:</b> prelavado con jabón neutro y clay bar para limpiar y preparar el detallado.</p>
+      <div class="zones" style="color:#222"><span>Guadalajara</span><span>Zapopan</span><span>Tlaquepaque</span><span>Tonalá</span><span>Tlajomulco</span></div>
+    </div>
+    <div>
+      <div class="pair">
+        <div class="price-card"><h3>Sedán y Hatchback</h3><div class="p">$899</div><small>Cerámica de grafeno</small></div>
+        <div class="price-card"><h3>Camionetas y SUVs</h3><div class="p">$1,099</div><small>Cerámica de grafeno</small></div>
+      </div>
+      <ul class="addons" style="color:#fff;background:var(--ink);padding:0 20px;border:0;margin-top:16px">
+        <li><span>Descontaminación de cristales</span><b>$250</b></li>
+        <li><span>Rines y llantas</span><b>$100</b></li>
+        <li><span>Plásticos negros (exterior)</span><b>$150</b></li>
+        <li><span>Engine bay (bahía de motor)</span><b>$250</b></li>
+      </ul>
+      <p class="incl" style="color:#333">Precios en pesos mexicanos (MXN).</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="galeria"><div class="wrap">
+  <h2>Nuestro trabajo</h2>
+  <div class="gallery">
+    <figure><img src="img/foto1.jpg" alt="Auto detallado con cerámica de grafeno" loading="lazy"></figure>
+    <figure><img src="img/foto2.jpg" alt="Auto detallado con cerámica de grafeno" loading="lazy"></figure>
+    <figure><img src="img/foto3.jpg" alt="Auto detallado con cerámica de grafeno" loading="lazy"></figure>
+    <figure><img src="img/foto4.jpg" alt="Auto detallado con cerámica de grafeno" loading="lazy"></figure>
+    <figure><img src="img/foto5.jpg" alt="Auto detallado con cerámica de grafeno" loading="lazy"></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video1.jpg" aria-label="Video de detallado"><source src="img/video1.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video2.jpg" aria-label="Video de detallado"><source src="img/video2.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video3.jpg" aria-label="Video de detallado"><source src="img/video3.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video4.jpg" aria-label="Video de detallado"><source src="img/video4.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video5.jpg" aria-label="Video de detallado"><source src="img/video5.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video6.jpg" aria-label="Video de detallado"><source src="img/video6.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video7.jpg" aria-label="Video de detallado"><source src="img/video7.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video8.jpg" aria-label="Video de detallado"><source src="img/video8.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video9.jpg" aria-label="Video de detallado"><source src="img/video9.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video10.jpg" aria-label="Video de detallado"><source src="img/video10.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video11.jpg" aria-label="Video de detallado"><source src="img/video11.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video12.jpg" aria-label="Video de detallado"><source src="img/video12.mp4" type="video/mp4"></video></figure>
+    <figure><video controls muted loop preload="none" playsinline poster="img/video13.jpg" aria-label="Video de detallado"><source src="img/video13.mp4" type="video/mp4"></video></figure>
+  </div>
+</div></section>
+
+<section class="dark2" id="reservar"><div class="wrap">
+  <h2>Reserva tu cita</h2>
+  <div class="cols">
+    <p style="color:#ccc;max-width:44ch">Llena el formulario y te abrimos un chat de WhatsApp con tu pedido listo. Confirmamos fecha y hora contigo en el mismo chat.</p>
+    <form id="f" novalidate>
+      <div class="g2">
+        <label>Nombre<input id="nombre" required autocomplete="name"></label>
+        <label>Tu WhatsApp<input id="tel" type="tel" required autocomplete="tel" placeholder="33 1234 5678"></label>
+      </div>
+      <label>Tipo de vehículo
+        <select id="veh"><option value="899|Sedán / Hatchback">Sedán / Hatchback, $899</option><option value="1099|Camioneta / SUV">Camioneta / SUV, $1,099</option></select>
+      </label>
+      <label>Marca, modelo y año<input id="modelo" placeholder="Ej. Mazda 3 2021"></label>
+      <fieldset><legend>Servicios adicionales</legend>
+        <label class="opt"><input type="checkbox" data-p="250" value="Descontaminación de cristales"><span>Descontaminación de cristales</span><span>$250</span></label>
+        <label class="opt"><input type="checkbox" data-p="100" value="Rines y llantas"><span>Rines y llantas</span><span>$100</span></label>
+        <label class="opt"><input type="checkbox" data-p="150" value="Plásticos negros exterior"><span>Plásticos negros (exterior)</span><span>$150</span></label>
+        <label class="opt"><input type="checkbox" data-p="250" value="Engine bay"><span>Engine bay</span><span>$250</span></label>
+      </fieldset>
+      <div class="g2">
+        <label>Fecha<input id="fecha" type="date"></label>
+        <label>Horario<select id="hora"><option>Mañana (9–13 h)</option><option>Tarde (13–18 h)</option></select></label>
+      </div>
+      <label>Dirección y colonia<input id="dir" placeholder="Calle, número, colonia, municipio"></label>
+      <label>Cómo vas a pagar
+        <select id="pago"><option>Transferencia</option><option>Efectivo al terminar</option><option>Tarjeta (link de pago)</option><option>Depósito en OXXO</option></select>
+      </label>
+      <div class="total"><span>Total estimado</span><span id="tot">$899</span></div>
+      <button class="btn wa" type="submit">Enviar por WhatsApp</button>
+      <a class="btn ghost" id="mail" href="#" style="text-align:center">O enviar por correo</a>
+    </form>
+  </div>
+</div></section>
+
+<section class="light" id="pagos"><div class="wrap">
+  <h2>Formas de pago</h2>
+  <div class="pay">
+    <div><h3>Transferencia</h3><p>Banco: <b id="banco"></b><br>CLABE: <b id="clabe"></b><br>Titular: <b id="titular"></b></p></div>
+    <div><h3>Tarjeta</h3><p>Débito o crédito con link de pago seguro. <a id="linkpago" href="#"><b>Pagar en línea</b></a></p></div>
+    <div><h3>Efectivo</h3><p>Paga al terminar el servicio, directo con tu detallador.</p></div>
+    <div><h3>OXXO</h3><p>Pide tu referencia por WhatsApp y deposita antes de la cita.</p></div>
+  </div>
+  <p class="incl" style="color:#222;margin-top:20px">Para apartar tu fecha te pedimos un anticipo. Te lo indicamos al confirmar.</p>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div><strong>Proa Detallado</strong><br>Limpio, brillante y protegido.<br>Zona metropolitana de Guadalajara</div>
+  <div><strong>Contacto</strong><br>WhatsApp: <a id="fwa" href="#"></a><br>Correo: <a id="fmail" href="#"></a></div>
+</div></footer>
+<a class="fab" id="fab" href="#">WhatsApp</a>
+
+<script>
+/* ====== EDITA SOLO ESTA SECCION ====== */
+const CONFIG = {
+  whatsapp: "523332431808",            // formato internacional, sin + ni espacios
+  whatsappTexto: "+52 33 3243 1808",
+  email: "yeshua_51@icloud.com",      // <-- CAMBIA POR TU CORREO REAL
+  banco: "BBVA",                    // <-- CAMBIA
+  clabe: "012180015391039447",          // <-- CAMBIA (18 digitos)
+  titular: "Jesus Humberto Proa Lopez",        // <-- CAMBIA
+  linkPago: "https://www.paypal.com/paypalme/JALIFORNIAN" // <-- CAMBIA (Mercado Pago, Stripe, etc.)
+};
+/* ===================================== */
+const $=id=>document.getElementById(id), mx=n=>"$"+n.toLocaleString("es-MX");
+const wa=t=>`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(t)}`;
+$("fab").href=wa("Hola, quiero información sobre el detallado.");
+$("fwa").href=wa("Hola, quiero información."); $("fwa").textContent=CONFIG.whatsappTexto;
+$("fmail").href="mailto:"+CONFIG.email; $("fmail").textContent=CONFIG.email;
+$("banco").textContent=CONFIG.banco; $("clabe").textContent=CONFIG.clabe; $("titular").textContent=CONFIG.titular;
+$("linkpago").href=CONFIG.linkPago;
+$("fecha").min=new Date().toISOString().slice(0,10);
+const f=$("f");
+function calc(){
+  const [p,n]=$("veh").value.split("|"); let t=+p; const ex=[];
+  f.querySelectorAll("input[type=checkbox]:checked").forEach(c=>{t+=+c.dataset.p;ex.push(c.value)});
+  $("tot").textContent=mx(t);
+  return `Hola, quiero reservar en Proa Detallado:\n\nNombre: ${$("nombre").value}\nTel: ${$("tel").value}\nVehículo: ${n} ${$("modelo").value}\nPaquete: Cerámica de grafeno (${mx(+p)})\nExtras: ${ex.join(", ")||"ninguno"}\nFecha: ${$("fecha").value||"por definir"}, ${$("hora").value}\nDirección: ${$("dir").value}\nPago: ${$("pago").value}\nTotal estimado: ${$("tot").textContent} MXN`;
+}
+f.addEventListener("input",calc); calc();
+f.addEventListener("submit",e=>{e.preventDefault();
+  if(!$("nombre").value.trim()||!$("tel").value.trim()){alert("Escribe tu nombre y tu WhatsApp para continuar.");return}
+  window.open(wa(calc()),"_blank")});
+$("mail").addEventListener("click",e=>{e.preventDefault();
+  location.href=`mailto:${CONFIG.email}?subject=${encodeURIComponent("Reserva de detallado")}&body=${encodeURIComponent(calc())}`});
+/* PWA */
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+let dp;addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;$("install").style.display="inline"});
+$("install").addEventListener("click",e=>{e.preventDefault();dp&&dp.prompt()});
+</script>
+</body>
+</html>
